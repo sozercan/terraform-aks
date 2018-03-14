@@ -1,3 +1,7 @@
 # terraform-aks
 
-Requires https://github.com/terraform-providers/terraform-provider-azurerm/pull/693
+Edit variables in `terraform.tfvars`
+
+`terraform init`
+`terraform plan`
+`terraform apply`
