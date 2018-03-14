@@ -13,18 +13,7 @@ variable "terraform_azure_region" {
 variable "terraform_aks_dns_prefix" {
   type        = "string"
   description = "Master DNS Prefix"
-  default     = "akstestmaster"
-}
-
-variable "terraform_aks_agent_dns_prefix" {
-  type        = "string"
-  description = "Agent DNS Prefix"
-  default     = "akstestagent"
-}
-
-variable "terraform_aks_master_vm_count" {
-  description = "AKS Master VM count"
-  default     = 1
+  default     = "akstest"
 }
 
 variable "terraform_aks_agent_vm_count" {
@@ -60,10 +49,4 @@ variable "terraform_azure_service_principal_client_secret" {
   type        = "string"
   description = "Service Principal Client Secret"
   default     = ""
-}
-
-variable "terraform_aks_kubernetes_version" {
-  type        = "string"
-  description = "Kubernetes Version"
-  default     = "1.8.2"
 }
