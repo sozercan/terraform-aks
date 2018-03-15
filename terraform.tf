@@ -10,6 +10,7 @@ resource "azurerm_kubernetes_cluster" "test" {
   location            = "${azurerm_resource_group.test.location}"
   resource_group_name = "${azurerm_resource_group.test.name}"
   dns_prefix          = "${azurerm_resource_group.test.name}"
+  kubernetes_version  = "${var.terraform_aks_kubernetes_version}"
 
   linux_profile {
     admin_username = "${var.terraform_azure_admin_name}"

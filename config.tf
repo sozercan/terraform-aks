@@ -50,3 +50,9 @@ variable "terraform_azure_service_principal_client_secret" {
   description = "Service Principal Client Secret"
   default     = ""
 }
+
+variable "terraform_aks_kubernetes_version" {
+  type        = "string"
+  description = "Kubernetes Version"
+  default     = "1.8.2"
+}
