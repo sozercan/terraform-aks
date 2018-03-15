@@ -1,8 +1,15 @@
 # terraform-aks
 
-Edit variables in `terraform.tfvars`
+## Documentation:
+https://www.terraform.io/docs/providers/azurerm/r/kubernetes_cluster.html
 
-After editing, 
+## Usage 
+
+* [Install Terraform](https://www.terraform.io/intro/getting-started/install.html)
+
+* Edit variables in `terraform.tfvars`
+
+* After editing; 
 
 `terraform init`
 
