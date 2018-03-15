@@ -1,6 +1,6 @@
 # terraform-aks
 
-## Documentation:
+## Documentation
 https://www.terraform.io/docs/providers/azurerm/r/kubernetes_cluster.html
 
 ## Usage 
